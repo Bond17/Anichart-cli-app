@@ -1,11 +1,3 @@
-require 'open-uri'
-
-class Scraper
-
-  def self.scrape_index_page(index_url)
-    index_page = Nokogiri::HTML(open(index_url))
-    shows = []
-    index_page.css("div.section").each do |series|
      #Title = scraped title text
      #Studio = scraped title text
      #Episodes Released = scraped title text
@@ -19,10 +11,21 @@ class Scraper
      #CrunchyRoll Page = scraped cruncyroll link
      
      #shows<< {series info}
-    end
-    shows
+
+
+class Anichart::Scraper
+
+  def get_page
+    Nokogiri::HTML(open("http://anichart.net/Summer-2018"))
   end
 
-  
+  def scrape_anime_index
+     self.get_page.css("div#title") #get anime objects
+  end
 
+  def make_animes
+    scrape_anime_index.each do |r|
+    #  Anichart::Anime.new #make new anime object
+    end
+  end
 end
