@@ -34,6 +34,12 @@ Please enter a year
 
 </ul>
 
+Displays list of shows 
+
+Maybe then Asks user which show would you like to know more about?
+
+Maybe asks for genre first to shorten list
+
 <h5>Allow For Genre Selection</h5>
 
 show # of shows to watch
