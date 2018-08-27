@@ -1,0 +1,17 @@
+1. user inputs season and year (potentially optional as will complicate the scraper could just use current year on homepage anichart.net)
+
+Show all shows from that season and year and select that season and year
+
+2. user inputs show genres
+
+Show all avaliable genres for selection
+
+3.user inputs a genre
+
+show all shows from that genre
+
+4. user inputs info and a show name or number
+
+"info 13" or "info One Punch Man"
+
+display all info from that show

@@ -1,0 +1,26 @@
+Planning the gem.
+Beginning the building process.
+Setting up or generating the basic structure of the gem.
+Creating and stubbing out the executable file.
+requiring files with require and require_relative.
+Coding the CLI class — our controller.
+Stubbing out the CLI class with hard-coded return data.
+Creating the menu.
+Setting up our Deal class.
+#today method to return today's deals.
+Stubbing out our first Deal instances with hard-coded data.
+Setting up the Deal class attributes.
+Testing our data in the console.
+Wire up our menu with conditional logic to work with our array of deals.
+Iterate over and display deals.
+Fix spelling on #availability.
+Setting up our scraper class — should we use a Deal class method or a standalone class?
+Set up Deals#scrape_deals method.
+Adding gem dependencies to the app.
+Add dependencies to gemspec.
+Development dependencies or runtime dependencies?
+Code individual scrape methods for each site.
+Use CSS selectors to scrape desired information.
+Create new Deal objects and set the attributes based on the scraped info.
+Update logic for #availability.
+Final thoughts and tips on the building process.
