@@ -18,6 +18,12 @@ using format ex. "/Summer-2018"
 
 <h5>Allow for date selection</h5>
 
+Asks user "What season and year would you like to view?"
+
+Displays please enter Winter, Spring, Summer, Fall
+
+Please enter a year
+
 <ul>
 
 <li>year = (user_input)</li>
